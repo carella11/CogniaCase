@@ -14,8 +14,9 @@
     "facilities": {
       "food": true,
       "restroom": true,
+      "laundry": true,
       "shower": true,
-      "laundry": true
+      "parkingForTrucks": true
     }
   },
   {
@@ -33,8 +34,9 @@
     "facilities": {
       "food": true,
       "restroom": true,
+      "laundry": true,
       "shower": true,
-      "laundry": true
+      "parkingForTrucks": true
     }
   },
   {

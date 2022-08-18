@@ -17,8 +17,8 @@ app.UseHttpsRedirection();
         {
             //if reststop has no facilities, continue to the next one)
             if (restStop.facilities == null) continue;
-            // if reststop has a shower and parking for trucks, then add to list the list of reststops with facilities.
-            if (restStop.facilities.shower && restStop.parkingForTrucks)
+            // if reststop has a shower and parking for trucks, then add to list the list of rest stops with facilities.
+            if (restStop.facilities.shower && restStop.facilities.parkingForTrucks)
             {
                 stopsWithFacilities.Add(restStop);
             }

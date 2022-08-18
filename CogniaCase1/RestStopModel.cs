@@ -13,15 +13,14 @@ public class RestStopModel
     public string postnummer { get; set; }
     public string poststed { get; set; }
     public DateTime aktiveringstidspunkt { get; set; }
-    public bool parkingForTrucks { get; set; }
-    public bool fuelStationForTrucks { get; set; }
     public Facilities facilities { get; set; }
 
     public class Facilities
     {
         public bool food { get; set; }
         public bool restroom { get; set; }
-        public bool shower { get; set; }
         public bool laundry { get; set; }
+        public bool shower { get; set; }
+        public bool parkingForTrucks { get; set; }
     }
 }
